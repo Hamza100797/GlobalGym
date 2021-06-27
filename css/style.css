@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navigation {
+  background-color: rgba(18, 34, 18, 0.137);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+.logo img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: none;
+  cursor: pointer;
+}
+.navitems ul {
+  display: flex;
+  flex-direction: row;
+}
+.navitems ul li {
+  list-style: none;
+}
+.navitems ul li a {
+  text-decoration: none;
+  padding: 0px 22px;
+  font-size: 22px;
+  color: white;
+  background-color: rgba(45, 49, 73, 0.233);
+  padding: 12px;
+  margin: 4px 18px;
+  border-radius: 18px;
+  font-weight: 700;
+  transition: 0.3s ease-in;
+}
+.navitems ul li a:hover {
+  font-family: "Lobster", cursive;
+  font-weight: 500px;
+  background-color: rgba(255, 245, 238, 0.534);
+  color: black;
+}
+.bgvideo video {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -2;
+}
+.covertext {
+  position: absolute;
+  top: 164px;
+  left: 0;
+  padding-left: 125px;
+}
+.covertext h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: italic;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  font-family: "Playfair Display", serif;
+  color: rgb(121, 121, 121);
+}
+.covertext h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-style: italic;
+  color: white;
+  margin-top: -14px;
+  margin-left: 29px;
+}
+.headbtn button a {
+  text-decoration: none;
+  color: rgb(212, 206, 206);
+  font-family: "Playfair Display", serif;
+}
+.headbtn button {
+  font-size: 22px;
+  color: rgb(20, 20, 20);
+  background-color: rgba(45, 49, 73, 0.233);
+  padding: 8px 18px;
+  margin-left: 32px;
+  border-radius: 18px;
+
+  font-weight: 700;
+  transition: 0.3s ease-in;
+  font-family: "Playfair Display", serif;
+}
+.headbtn button :hover {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  font-style: italic;
+}
+.socialmedia {
+  display: flex;
+  position: absolute;
+  cursor: pointer;
+  right: 0px;
+  margin-right: 34px;
+  bottom: 40px;
+}
+.socialmedia i {
+  font-size: 42px;
+  padding: 14px;
+}
+.socialmedia :hover {
+  font-size: 52px;
+  margin-left: 18px;
+}
+.socialmedia #fb {
+  color: blue;
+}
+.socialmedia #google {
+  color: rgb(241, 11, 11);
+}
+.socialmedia #twiter {
+  color: rgb(18, 166, 224);
+}
+.socialmedia #whatsapp {
+  color: rgb(14, 190, 43);
+}
+.socialmedia #youtube {
+  color: rgb(235, 18, 18);
+}
+/* //utlaity class */
+.shadow {
+  font-style: italic;
+  font-weight: 800;
+  text-shadow: 2px 2px 8px #00ff22;
+}
+.shadow:hover {
+  font-size: 32px;
+  margin-left: 9px;
+  cursor: pointer;
+}

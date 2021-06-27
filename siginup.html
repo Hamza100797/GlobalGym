@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<!-- information about the tags  -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Hamza Bin Khurshid">
+        <meta name="description" content="The Sustainable Development Goals or Global Goals are a collection of 17 interlinked goals designed to be a blueprint to achieve a better and more sustainable future for all. The SDGs were set in 2015 by the United Nations General Assembly and are intended to be achieved by the year 2030">
+        <meta name="keywords" content="Global Goals,Sustainable Development Goals,interlinked goals,sustainable future,United Nations General Assembly">
+        <!-- information about externation links -->
+        <title>SignUp/Registration Form</title>
+        <link rel="shortcut icon" href="media/logo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/resgistrationstyle.css">
+        <link rel="apple-touch-icon" href="">
+       <!-- googlefont -->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" href="">
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <form action="backhand.php" method="POST">
+                    <h1>SiginUp Or Resistor Form</h1>
+                    <div id="firstname">
+                        <label for="fname">First Name</label><input type="text" name="First Name" id="fname" placeholder="Hamza" required> <br>
+                    </div>
+
+                    <div id="lastname">
+                       <label for="lname">Last Name</label> <input type="text" name="Last Name" id="lname" placeholder="Khurshid " required> <br>
+                    </div>
+
+                    <div id="useremail">
+                       <label for="email">Enter your Email</label> <input type="email" name="email" id="email" placeholder="abc@123.com" required> <br>
+                    </div>
+
+                    <div id="userpassword">
+                      <label for="password">Choose a Password</label>  <input type="password" name="password" id="password"placeholder="abc@123" minlength="8" maxlength="32" required>
+                    </div>
+
+                    <div id="conformpassword">
+                       <label for="cpassword">Conform Password</label> <input type="password" name="conformpasswoard" id="cpassword" placeholder="abc@123" min="8" maxlength="32" required> <br>
+                    </div>
+
+                    <div id="usergender">
+                        <label for="">Select Your Gender</label> <br>
+                        <input type="radio" name="gender" id="male" value="Male" required> Male <br>
+                        <input type="radio" name="gender" id="female" value="Female" required> Female <br>
+                        <input type="radio" name="gender" id="other" value="Other" required> Other <br>
+                    </div>
+
+                    <div id="userdob">
+                        <label for="dob">Select your DOB:</label><input type="date" name="" id="dob" placeholder="DOB (dd/mm/yy)" required> <br>
+                    </div>
+
+                    <div id="pro" class="professionoption">
+                        <label for="Profession">Choose your Profession:</label>
+                        <select id="Profession">
+                        <option value="students">Student</option>
+                        <option value="empolyee">Empolyeed</option>
+                        <option value="unempolyee">UmEmpolyeed</option>
+                        <option value="rtd">Retired</option>
+                        </select>
+                </div>
+                    <div id="useraddress">
+                        <label for="address">Address</label>
+                        <input type="text" name="address" id="address" placeholder="Address"><br>    
+                        <input type="text" name="City" id="city" placeholder="Address line 2 ,City,State,Country"><br>
+                    </div>
+                    <div id="usernumber">
+                        <label for="pnumber">Phone Number</label>
+                        <input type="text" name="number" id="pnumber" placeholder="+92 333 3333333"><br>    
+                       
+                    </div>
+
+                    <div id="userresume">
+                        <label for="profileimage">Upload Your Image:</label> <input type="file" name="profileimage" id="profileimage"> <br>
+                        <label for="resume">Upload Your Resume/CV</label><input type="file" name="resume" id="resume" required>
+                    </div>
+
+                    <div id="tod">
+                        <h4><input type="checkbox" name="" id="checkbox"  required>I Accepts <a href="tod.html"><abbr title="TOD">Terms and Conditions</abbr></a></h4>
+                    </div>
+
+                    <div class="submitbtn">
+                        <input type="submit" value="Siginup">
+                    </div>
+                    <div class="alreadyaccunt">
+                        <h3>Already account? <a href="signin.html">Sigin/Login</a></h3>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
